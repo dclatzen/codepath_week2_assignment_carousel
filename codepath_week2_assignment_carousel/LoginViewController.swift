@@ -20,6 +20,8 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var buttonParentView: UIView!
     @IBOutlet weak var signInButton: UIButton!
     
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
     // declare variables for animation
     
     var fieldParentInitialY: CGFloat!
@@ -67,26 +69,37 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
     
     
     @IBAction func didPressSignIn(_ sender: AnyObject) {
+        
+        activityIndicator.startAnimating()
+        
         if emailTextField.text!.isEmpty || passwordTextField.text!.isEmpty {
             
-            // create the alert with an alert controller (main message)
-            let alertController = UIAlertController(title: "Please try again", message: "Your email and/or password is blank.", preferredStyle: .alert)
-            
-            // define an action (what should the button say?)
-            let okayAction = UIAlertAction(title: "OK", style: .default) { (action) in
-                // what should happen when the button is pressed
-            }
-            
-            // add the action to the controller
-            alertController.addAction(okayAction)
-            
-            // present the alert controller
-            present(alertController, animated: true)
+            delay(1, closure: {
+                
+                self.activityIndicator.stopAnimating()
+                
+                // create the alert with an alert controller (main message)
+                let alertController = UIAlertController(title: "Please try again", message: "Your email and/or password is blank.", preferredStyle: .alert)
+                
+                // define an action (what should the button say?)
+                let okayAction = UIAlertAction(title: "OK", style: .default) { (action) in
+                    // what should happen when the button is pressed
+                }
+                
+                // add the action to the controller
+                alertController.addAction(okayAction)
+                
+                // present the alert controller
+                self.present(alertController, animated: true)
+            })
             
         } else if emailTextField.text == "qwert" && passwordTextField.text == "asdf" {
+            activityIndicator.stopAnimating()
             performSegue(withIdentifier: "tutorialSegue", sender: nil)
             
         } else {
+            
+            activityIndicator.stopAnimating()
             
             // create the alert
             let alertController = UIAlertController(title: "Not quite", message: "Your email and password combo do not match our files.", preferredStyle: .alert)

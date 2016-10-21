@@ -18,6 +18,9 @@
 		443F77071DB96AE000F4ED9F /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443F77061DB96AE000F4ED9F /* IntroViewController.swift */; };
 		443F77091DB96C5100F4ED9F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443F77081DB96C5100F4ED9F /* LoginViewController.swift */; };
 		443F770B1DB98B8C00F4ED9F /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443F770A1DB98B8C00F4ED9F /* TutorialViewController.swift */; };
+		443F770F1DB9954D00F4ED9F /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443F770E1DB9954D00F4ED9F /* TimelineViewController.swift */; };
+		443F77111DB9981400F4ED9F /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443F77101DB9981400F4ED9F /* ConversationsViewController.swift */; };
+		443F77131DB9983000F4ED9F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443F77121DB9983000F4ED9F /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +57,10 @@
 		443F77041DB96AA000F4ED9F /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		443F77061DB96AE000F4ED9F /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		443F77081DB96C5100F4ED9F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		443F770A1DB98B8C00F4ED9F /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		443F770A1DB98B8C00F4ED9F /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TutorialViewController.swift; path = ../TutorialViewController.swift; sourceTree = "<group>"; };
+		443F770E1DB9954D00F4ED9F /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimelineViewController.swift; path = ../TimelineViewController.swift; sourceTree = "<group>"; };
+		443F77101DB9981400F4ED9F /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		443F77121DB9983000F4ED9F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +91,6 @@
 		443F76CA1DB9683700F4ED9F = {
 			isa = PBXGroup;
 			children = (
-				443F770A1DB98B8C00F4ED9F /* TutorialViewController.swift */,
 				443F76D51DB9683700F4ED9F /* codepath_week2_assignment_carousel */,
 				443F76EA1DB9683800F4ED9F /* codepath_week2_assignment_carouselTests */,
 				443F76F51DB9683800F4ED9F /* codepath_week2_assignment_carouselUITests */,
@@ -110,10 +115,14 @@
 				443F77041DB96AA000F4ED9F /* Common.swift */,
 				443F76D81DB9683700F4ED9F /* ViewController.swift */,
 				443F76DA1DB9683700F4ED9F /* Main.storyboard */,
+				443F77121DB9983000F4ED9F /* SettingsViewController.swift */,
+				443F77101DB9981400F4ED9F /* ConversationsViewController.swift */,
 				443F77081DB96C5100F4ED9F /* LoginViewController.swift */,
 				443F77061DB96AE000F4ED9F /* IntroViewController.swift */,
 				443F76DD1DB9683700F4ED9F /* Assets.xcassets */,
 				443F76DF1DB9683700F4ED9F /* LaunchScreen.storyboard */,
+				443F770E1DB9954D00F4ED9F /* TimelineViewController.swift */,
+				443F770A1DB98B8C00F4ED9F /* TutorialViewController.swift */,
 				443F76E21DB9683700F4ED9F /* Info.plist */,
 			);
 			path = codepath_week2_assignment_carousel;
@@ -274,9 +283,12 @@
 				443F76D91DB9683700F4ED9F /* ViewController.swift in Sources */,
 				443F77051DB96AA000F4ED9F /* Common.swift in Sources */,
 				443F76D71DB9683700F4ED9F /* AppDelegate.swift in Sources */,
+				443F77111DB9981400F4ED9F /* ConversationsViewController.swift in Sources */,
 				443F77091DB96C5100F4ED9F /* LoginViewController.swift in Sources */,
+				443F770F1DB9954D00F4ED9F /* TimelineViewController.swift in Sources */,
 				443F770B1DB98B8C00F4ED9F /* TutorialViewController.swift in Sources */,
 				443F77071DB96AE000F4ED9F /* IntroViewController.swift in Sources */,
+				443F77131DB9983000F4ED9F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
