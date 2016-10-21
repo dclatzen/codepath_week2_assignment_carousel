@@ -17,6 +17,7 @@
 		443F77051DB96AA000F4ED9F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443F77041DB96AA000F4ED9F /* Common.swift */; };
 		443F77071DB96AE000F4ED9F /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443F77061DB96AE000F4ED9F /* IntroViewController.swift */; };
 		443F77091DB96C5100F4ED9F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443F77081DB96C5100F4ED9F /* LoginViewController.swift */; };
+		443F770B1DB98B8C00F4ED9F /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443F770A1DB98B8C00F4ED9F /* TutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		443F77041DB96AA000F4ED9F /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		443F77061DB96AE000F4ED9F /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		443F77081DB96C5100F4ED9F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		443F770A1DB98B8C00F4ED9F /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		443F76CA1DB9683700F4ED9F = {
 			isa = PBXGroup;
 			children = (
+				443F770A1DB98B8C00F4ED9F /* TutorialViewController.swift */,
 				443F76D51DB9683700F4ED9F /* codepath_week2_assignment_carousel */,
 				443F76EA1DB9683800F4ED9F /* codepath_week2_assignment_carouselTests */,
 				443F76F51DB9683800F4ED9F /* codepath_week2_assignment_carouselUITests */,
@@ -272,6 +275,7 @@
 				443F77051DB96AA000F4ED9F /* Common.swift in Sources */,
 				443F76D71DB9683700F4ED9F /* AppDelegate.swift in Sources */,
 				443F77091DB96C5100F4ED9F /* LoginViewController.swift in Sources */,
+				443F770B1DB98B8C00F4ED9F /* TutorialViewController.swift in Sources */,
 				443F77071DB96AE000F4ED9F /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
