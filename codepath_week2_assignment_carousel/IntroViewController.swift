@@ -30,7 +30,7 @@ class IntroViewController: UIViewController, UIScrollViewDelegate {
         introScrollView.contentSize = introImageView.frame.size
         introScrollView.delegate = self
         
-    // end viewDidLoad
+    // end viewDidLoad method here
     }
     
     
