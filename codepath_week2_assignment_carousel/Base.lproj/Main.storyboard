@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="ftu-Bm-2Ga">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="ftu-Bm-2Ga">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -81,7 +81,7 @@
             <objects>
                 <viewController id="IED-7f-FPn" customClass="LoginViewController" customModule="codepath_week2_assignment_carousel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SIZ-NN-rmt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1335"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="mcT-Kc-rHi">
@@ -183,8 +183,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="49m-mz-40O">
-                                <frame key="frameInset" minY="72" width="375" height="813"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <frame key="frameInset" minY="72"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="settings" id="4hB-z4-S2u">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="813"/>
@@ -216,8 +216,8 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="885"/>
                     <connections>
-                        <outlet property="settingsImageView" destination="4hB-z4-S2u" id="F5p-en-x0D"/>
-                        <outlet property="settingsScrollView" destination="49m-mz-40O" id="GEX-j0-dG4"/>
+                        <outlet property="settingsImageView" destination="4hB-z4-S2u" id="SxF-KW-tWl"/>
+                        <outlet property="settingsScrollView" destination="49m-mz-40O" id="z6k-my-R9g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="op7-Zy-QUz" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -411,6 +411,6 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="9BL-gW-Inx"/>
+        <segue reference="dIN-VO-2tz"/>
     </inferredMetricsTieBreakers>
 </document>
