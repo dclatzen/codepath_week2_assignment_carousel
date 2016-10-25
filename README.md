@@ -38,7 +38,7 @@ Life interrupted my time on this one. I was really looking forward to implenting
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](latzen_week1_assignment_dropbox.gif)
+![Video Walkthrough](codepath_week2_assignment_carousel.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
